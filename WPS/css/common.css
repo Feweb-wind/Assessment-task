@@ -1,0 +1,16 @@
+*{
+    font-family: Avenir,Microsoft yahei,Helvetica,Arial,Roboto,sans-serif;
+    box-sizing: border-box;
+}
+
+body,h1,p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}

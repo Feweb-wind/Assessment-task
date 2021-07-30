@@ -1,0 +1,762 @@
+body {
+  min-height: 100vh;
+  background: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/025374e.jpg) no-repeat top / 100% 300px;
+  background-color: #fafafa;
+  text-align: center;
+}
+header .container {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .left {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .left a {
+  height: 100%;
+  margin-right: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+header .container .left a .icon {
+  width: 28px;
+  height: 68px;
+  margin-right: 14px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyOCI+PHBhdGggZD0iTTIgMjcuNVYuNWgxMmM2LjguMSAxMi40IDUuMSAxMyAxMS43LjUgNi42LTQuMiAxMi40LTExIDEzLjV2MS44bC02LTQuOCA2LTQuOXYyYzIuOS0uOSA0LjgtMy40IDQuOS02LjMgMC0xLjktLjgtMy43LTIuMi01LTEuNC0xLjMtMy4zLTItNS4yLTJIOC4ydjIxSDJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 28px;
+}
+header .container .left a h1 {
+  height: 27px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
+}
+header .container .left nav {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (max-width: 780px) {
+  header .container .left nav {
+    display: none;
+  }
+}
+header .container .right {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .right a {
+  height: 68px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container .right a div {
+  width: 28px;
+  margin-right: 7px;
+  background-position: 50%;
+  background-size: 28px;
+  background-repeat: no-repeat;
+}
+header .container .right p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+header .container .right div {
+  display: inline-block;
+  height: 100%;
+}
+header .container .right .mobile div {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/5c76435.svg);
+}
+@media screen and (max-width: 780px) {
+  header .container .right .mobile {
+    display: none;
+  }
+}
+header .container .right .desktop div {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/ac17d1e.svg);
+}
+@media screen and (max-width: 780px) {
+  header .container .right .desktop {
+    display: none;
+  }
+}
+header .container .right .trial {
+  width: 103px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  color: #6b58c9;
+  background: #fff;
+  border: 4px solid #fafafa;
+  font-size: 14px;
+  font-weight: 500;
+}
+header .container .right .trial #trial-box {
+  width: 120%;
+  height: 96px;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 36px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+header .container .right .trial #trial-box li {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color: #6b58c9;
+}
+header .container .right .trial #trial-box li div {
+  height: 28px;
+}
+header .container .right .trial #trial-box .trial-mobile div {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/5c76435.svg);
+}
+header .container .right .trial #trial-box .trial-desktop div {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/ac17d1e.svg);
+}
+header .container .right .trial #trial-box .trial-login {
+  color: #fff;
+  font-size: 12px;
+  justify-content: right;
+}
+@media screen and (max-width: 780px) {
+  header .container .right .trial:hover #trial-box {
+    display: block;
+  }
+}
+header .container .right .login {
+  color: #fff;
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 68px;
+  cursor: pointer;
+}
+@media screen and (max-width: 780px) {
+  header .container .right .login {
+    display: none;
+  }
+}
+header .container .right .user-img {
+  height: 100%;
+  position: relative;
+  width: 40px;
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  header .container .right .user-img {
+    display: none;
+  }
+}
+header .container .right .user-img img {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: #fff;
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/1367422.svg);
+  background-size: 28px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border: 2px solid #fff;
+}
+main .container h1 {
+  height: 33px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 33px;
+  margin: 0 0 4px;
+}
+main .container h2 {
+  height: 27px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 27px;
+  margin: 0 0 12px;
+}
+main .container .entrance {
+  width: 199px;
+  height: 40px;
+  margin-bottom: 40px;
+  background: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+main .container .entrance div {
+  display: inline-block;
+}
+main .container .entrance .icon {
+  width: 20px;
+  height: 15px;
+  background: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/31cad52.svg) no-repeat 50%/20px;
+}
+main .container .entrance .lable {
+  font-size: 14px;
+  font-weight: 900;
+  color: #6b58c9;
+  line-height: 40px;
+}
+main .container .grid-box {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(5, 240px);
+  grid-template-rows: repeat(3, 200px);
+}
+@media screen and (max-width: 1250px) {
+  main .container .grid-box {
+    max-width: 900px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(5, 150px);
+  }
+}
+@media screen and (max-width: 950px) {
+  main .container .grid-box {
+    max-width: 650px;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(14, 120px);
+  }
+}
+main .container .grid-box a {
+  text-align: left;
+  position: relative;
+  vertical-align: top;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  color: #534786;
+  line-height: 27px;
+  padding: 84px 24px 10px;
+  background-color: #fff;
+  background-position: 24px 38px;
+  background-size: 32px auto;
+  background-repeat: no-repeat;
+  font-family: Avenir Black, Microsoft yahei, Helvetica, Arial, Roboto, sans-serif;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+@media screen and (max-width: 1250px) {
+  main .container .grid-box a {
+    padding: 23px 10px 10px 60px;
+  }
+}
+main .container .grid-box a h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #534786;
+  line-height: 25px;
+}
+@media screen and (max-width: 950px) {
+  main .container .grid-box a h3 {
+    display: inline-block;
+  }
+}
+main .container .grid-box a p {
+  color: rgba(83, 71, 134, 0.7);
+  font-size: 14px;
+  font-family: Avenir-Medium, Avenir, Helvetica, Arial;
+  font-weight: 400;
+  line-height: 19px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 950px) {
+  main .container .grid-box a p {
+    display: inline;
+  }
+}
+main .container .grid-box a:hover {
+  background-color: #f4f7fe;
+  transition: background-color 0.2s;
+}
+main .container .grid-box #grid_1 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/f6feb75.svg);
+}
+main .container .grid-box #grid_2 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/324d63f.svg);
+}
+main .container .grid-box #grid_3 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/8496274.svg);
+}
+main .container .grid-box #grid_4 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/788df99.svg);
+}
+main .container .grid-box #grid_5 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/a155b4e.svg);
+}
+main .container .grid-box #grid_6 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/f5bcc4a.svg);
+}
+main .container .grid-box #grid_7 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/ee790d3.svg);
+}
+main .container .grid-box #grid_8 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/ec04900.svg);
+}
+main .container .grid-box #grid_9 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/c0b8f7c.svg);
+}
+main .container .grid-box #grid_10 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/6288b17.svg);
+}
+main .container .grid-box #grid_11 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/2433272.svg);
+}
+main .container .grid-box #grid_12 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/8c6b3de.svg);
+}
+main .container .grid-box #grid_13 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/043aeee.svg);
+}
+main .container .grid-box #grid_14 {
+  background-image: url(https://d19a1mtic3m6gl.cloudfront.net/pdftools/20210414074019201/img/9572af9.svg);
+}
+footer {
+  height: 162px;
+  background-color: #fff;
+  padding-top: 10px;
+}
+footer #row_1 {
+  margin: 20px 0 16px;
+}
+footer .row {
+  text-align: left;
+}
+footer .row div {
+  width: 160px;
+  display: inline-block;
+}
+footer .row a {
+  color: #afabc4;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+footer .copyright {
+  height: 19px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ccc;
+  line-height: 19px;
+  text-align: center;
+  margin: 70px 0 0;
+}
+#login-box {
+  width: 550px;
+  height: 640px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px 0px;
+}
+#login-box .login-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e9e9e9;
+  display: flex;
+  height: 56px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+#login-box .login-header .login-logo {
+  display: inline-block;
+  margin-left: 64px;
+  vertical-align: top;
+  width: 88px;
+  height: 22px;
+  background-image: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/v1/logo.676137dd.png);
+}
+#login-box .login-header .login-close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABKklEQVQ4T63UPU7DMBQA4Oc8pAwsCC7AUAluwdIZxMDAwAkSKbaUS2SInCVLRoSEoANX6EEY4ACt1CVTYiOXOkrVOM+N6jF6/vL+EgYnPuzEHmzBNE3Pm6ZZMsaepZTfx7xECDHTWr/XdX1XVVXdZcg5vwaALwB4LIrixwe1GAA82Tt7JQ8FuOBdAos+ZmIPeuiDurBB0DwcQy3m6rdzykMohTkztH0zqFLqUyl1j4hnALCgNoHcwziObxHxlf0fcq1IMEmSG8bYm9a6CYLghdrTUXCHfSDiQ9u2JnZ6yX0sz/Nf09fJQxnC7KAo9KDkMcwH3QN9MArtwGOwMXQLcs4vAGBppmkH4PO36Q8qDMN5lmWbLsMoiq7Kslz5Qv04IcSllHJNfnpT8D8pcrsVARDVogAAAABJRU5ErkJggg==");
+  cursor: pointer;
+}
+#login-box .main {
+  overflow: hidden;
+  width: 358px;
+  margin: 90px auto 0;
+  text-align: center;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #d8d8d8;
+  position: relative;
+  font-size: 14px;
+  color: #535252;
+}
+#login-box .main .main-pic {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/qrcode.55e9584f.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  cursor: pointer;
+}
+#login-box .main .main-wrap {
+  position: relative;
+  overflow: hidden;
+  vertical-align: top;
+  width: 260px;
+  min-height: 408px;
+  margin: 0 auto;
+  display: block;
+}
+#login-box .main .main-wrap .main-wrap-top {
+  text-align: left;
+  padding-top: 37px;
+}
+#login-box .main .main-wrap .main-wrap-top span {
+  font-size: 18px;
+  line-height: 24px;
+  color: #535252;
+}
+#login-box .main .main-wrap .main-wrap-login {
+  padding-top: 9px;
+}
+#login-box .main .main-wrap .main-wrap-login .google {
+  width: 258px;
+  margin-top: 53px;
+  border: 1px solid #4285F4;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  height: 44px;
+  border-radius: 4px;
+  line-height: 44px;
+  color: #fff;
+  cursor: pointer;
+}
+#login-box .main .main-wrap .main-wrap-login .google .google-left {
+  position: absolute;
+  width: 52px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  line-height: 44px;
+  border-right: 1px solid #4285F4;
+}
+#login-box .main .main-wrap .main-wrap-login .google .google-left .g-left-logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+  width: 21px;
+  height: 21px;
+  background-image: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/google.10244be4.png);
+  background-size: 21px;
+}
+#login-box .main .main-wrap .main-wrap-login .google .google-right {
+  width: 206px;
+  height: 100%;
+  position: absolute;
+  left: 52px;
+  font-size: 14px;
+  text-indent: 22px;
+  text-align: left;
+  background-color: #4285F4;
+}
+#login-box .main .main-wrap .main-wrap-login .email {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 4px;
+  line-height: 44px;
+  cursor: pointer;
+  border: 1px solid #d8d8d8;
+  height: 42px;
+  width: 258px;
+  color: #535252;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+#login-box .main .main-wrap .main-wrap-login .email .email-left {
+  position: absolute;
+  width: 52px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  line-height: 44px;
+  border-right: 1px solid #d8d8d8;
+}
+#login-box .main .main-wrap .main-wrap-login .email .email-left .e-left-logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+  width: 26px;
+  height: 21px;
+  background-image: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/email_icon.c93c1a98.svg);
+  background-size: 25px;
+}
+#login-box .main .main-wrap .main-wrap-login .email .email-right {
+  left: 53px;
+  right: 0;
+  text-indent: 22px;
+  text-align: left;
+  position: absolute;
+}
+#login-box .main .main-wrap .main-wrap-online {
+  font-size: 14px;
+  color: #535252;
+}
+#login-box .main .main-wrap .main-wrap-online .o-facebook {
+  float: left;
+}
+#login-box .main .main-wrap .main-wrap-online .o-facebook .facebook-logo {
+  background: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/v1/facebook.79bf0c74.svg) no-repeat;
+  background-size: auto;
+  background-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+}
+#login-box .main .main-wrap .main-wrap-online .o-facebook .underline {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 0;
+  line-height: 0;
+  height: 14px;
+  width: 0;
+  border-left: 1px solid #BDBDBD;
+}
+#login-box .main .main-wrap .main-wrap-online .o-line {
+  float: left;
+}
+#login-box .main .main-wrap .main-wrap-online .o-line .line-logo {
+  background: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/v1/line.a0a65ed8.svg) no-repeat;
+  background-size: auto;
+  background-size: 16px;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+#login-box .main .main-wrap .main-wrap-online .o-more {
+  float: right;
+  color: #535252;
+  font-size: 14px;
+}
+#login-box .main .main-wrap .main-wrap-online .o-more .more-logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 4px;
+  margin-left: 6px;
+  width: 7px;
+  height: 12px;
+  background-position: 0 -310px;
+  background-image: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/v1/login.5d224e6d.png);
+}
+#login-box .main .main-qr {
+  position: relative;
+  overflow: hidden;
+  vertical-align: top;
+  width: 260px;
+  min-height: 408px;
+  margin: 0 auto;
+  display: none;
+}
+#login-box .main .main-qr .nav {
+  text-align: left;
+  padding-top: 37px;
+}
+#login-box .main .main-qr .nav span {
+  font-size: 18px;
+  line-height: 24px;
+  color: #535252;
+}
+#login-box .main .main-qr p {
+  position: absolute;
+  padding-top: 8px;
+  line-height: 1;
+  font-size: 12px;
+  color: #BFBFBF;
+}
+#login-box .main .main-qr .qr-box {
+  padding-top: 30px;
+}
+#login-box .main .main-qr .qr-box .box-img {
+  position: relative;
+}
+#login-box .main .main-qr .qr-box .box-img .qr-img {
+  width: 130px;
+  height: 130px;
+  transition: all 0.3s;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin-top: 16px;
+}
+#login-box .main .main-qr .qr-box .box-img .qr-img img {
+  width: 100%;
+}
+#login-box .main .main-qr .qr-box .box-img .qr-img:hover {
+  transform: translateX(-64px);
+}
+#login-box .main .main-qr .qr-box .box-img .qr-img:hover + .scan_guide_img {
+  display: block;
+}
+#login-box .main .main-qr .qr-box .box-img .scan_guide_img {
+  width: 116px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  border-bottom: 7px solid #fff;
+  display: none;
+}
+#login-box .main .main-qr .qr-box p {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-top: 10px;
+}
+#login-box .main .main-mail {
+  position: relative;
+  overflow: hidden;
+  width: 260px;
+  min-height: 408px;
+  margin: 0 auto;
+  display: none;
+}
+#login-box .main .main-mail .nav {
+  text-align: left;
+  padding-top: 37px;
+}
+#login-box .main .main-mail .nav .mail-nav-left {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 4px;
+  width: 12px;
+  height: 18px;
+  background-position: 0 -290px;
+  background-image: url(https://cloud.cache.wpscdn.com/ovs/account/libs/img/v1/login.5d224e6d.png);
+}
+#login-box .main .main-mail .nav .txt {
+  font-size: 18px;
+  line-height: 24px;
+  color: #535252;
+}
+#login-box .main .main-mail form {
+  margin-top: 31px;
+}
+#login-box .main .main-mail form .mail-items {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border-radius: 3px;
+}
+#login-box .main .main-mail form .mail-items input {
+  display: block;
+  width: 234px;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 9px 12px;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+}
+#login-box .main .main-mail form .mail-password {
+  margin-top: 20px;
+}
+#login-box .main .main-mail form .keep-online {
+  position: relative;
+  text-align: left;
+  margin-top: 10px;
+}
+#login-box .main .main-mail form .keep-online .error-txt {
+  display: block;
+  padding: 1px 0 0;
+  min-height: 18px;
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 18px;
+  color: #F13640;
+}
+#login-box .main .main-mail form .keep-online label {
+  display: block;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666;
+  text-align: left;
+}
+#login-box .main .main-mail form .keep-online label span {
+  display: inline-block;
+  padding-left: 6px;
+  font-size: 14px;
+  color: #666;
+}
+#login-box .main .main-mail form .from-button {
+  display: inline-block;
+  width: 260px;
+  line-height: 44px;
+  font-size: 14px;
+  background-color: #1E86E7;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 11px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#login-box .main .main-mail form .login-bottom {
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+#login-box .main .main-mail form .login-bottom .new-id {
+  float: right;
+}
